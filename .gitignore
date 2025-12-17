@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+logs/
+*.log
+
+# Data files (don't commit large data)
+*.parquet
+*.avro
+*.orc
+data/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Checkpoints
+checkpoints/
+
+# MinIO data (if mounted locally)
+minio-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
